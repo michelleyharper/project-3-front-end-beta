@@ -121,9 +121,11 @@
   <button type="button" id="displayDiscountBtn" class="btn btn-primary" (click)="displayDiscounts()">
     Display Product Discounts
   </button>
-  <button type="button" title="add product to store" id="addProdBtn" class="btn btn-primary myDIV" data-toggle="modal" data-target="#addproductCenter">
+  <div>
+  <button class="tooltip" type="button" title="add product to store" id="addProdBtn" class="btn btn-primary myDIV" data-toggle="modal" data-target="#addproductCenter">
     Add Product 
   </button> 
+
   
   <br><br>
   <h3>Product & Discount Details</h3>
@@ -388,8 +390,8 @@
         </form>
       </div>
       <div class="modal-footer">
-        <button (click)="onEditRow(row)" type="button" class="btn btn-success" data-bs-toggle="modal"
-          data-bs-target="#exampleModal">Show Update Product Info</button>
+        <!-- <button (click)="onEditRow(row)" type="button" class="btn btn-success" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Show Update Product Info</button> -->
         <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" (click)="updateDiscountProducts()" class="btn btn-primary" data-bs-toggle="modal">Update Discount</button>
       </div>
