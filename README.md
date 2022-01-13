@@ -1,6 +1,15 @@
-# Rev-Tech
+# Getting Started
+
+# Front End
+* git clone `https://github.com/revature-rev-tech/project-3-front-end-beta.git`
+
+## Rev-Tech
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+
+## Package install
+
+Run `npm install` to install the node_modules folder.
 
 ## Development server
 
